@@ -1,0 +1,581 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:obo3="http://purl.obolibrary.org/obo/BFO_0000053_some_http://purl.obolibrary.org/obo/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:obo2="http://purl.obolibrary.org/obo/BFO_0000050_some_http://purl.obolibrary.org/obo/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:cdao="http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:uuid="uuid:"
+     xmlns:vocab="http://vocab.phenoscape.org/"
+     xmlns:publication="http://vocab.phenoscape.org/publication/0000167/">
+    <Ontology rdf:about="http://www.w3.org/2002/07/owl#genid1">
+        <imports rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
+    </Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <AnnotationProperty rdf:about="http://vocab.phenoscape.org/posited_by"/>
+    <AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    <AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000050 -->
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000050"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000051 -->
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000051"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000053 -->
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000053"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000219 -->
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000219"/>
+    
+
+
+    <!-- http://vocab.phenoscape.org/has_member -->
+
+    <ObjectProperty rdf:about="http://vocab.phenoscape.org/has_member"/>
+    
+
+
+    <!-- http://vocab.phenoscape.org/represents_taxon -->
+
+    <ObjectProperty rdf:about="http://vocab.phenoscape.org/represents_taxon"/>
+    
+
+
+    <!-- http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#belongs_to_Character -->
+
+    <ObjectProperty rdf:about="http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#belongs_to_Character"/>
+    
+
+
+    <!-- http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#belongs_to_TU -->
+
+    <ObjectProperty rdf:about="http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#belongs_to_TU"/>
+    
+
+
+    <!-- http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#has_Character -->
+
+    <ObjectProperty rdf:about="http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#has_Character"/>
+    
+
+
+    <!-- http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#has_State -->
+
+    <ObjectProperty rdf:about="http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#has_State"/>
+    
+
+
+    <!-- http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#has_TU -->
+
+    <ObjectProperty rdf:about="http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#has_TU"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000001 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000001">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000002 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000003 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000004 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000007 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000007">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000040 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000040">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CARO_0000003 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CARO_0000003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000006"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CARO_0000006 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CARO_0000006">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CARO_0000014 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CARO_0000014">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000003"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CARO_0001000 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CARO_0001000">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000003"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CARO_0001001 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CARO_0001001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0001000"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CARO_0010000 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CARO_0010000">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000003"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000000 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000003"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000540 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000540">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_0002036 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_0002036">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0016020 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0016020">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044464"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0030424 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0030424">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0043005"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0030425 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0030425">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0043005"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0042734 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0042734">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016020"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044456"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0042995 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0042995">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044464"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0043005 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0043005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0042995"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0044456 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0044456">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000014"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0044464 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0044464">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000014"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0045202 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0045202">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000014"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0045211 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0045211">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016020"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044456"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000462 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000462">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TAO_0000356 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/TAO_0000356">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000050_some_http://purl.obolibrary.org/obo/TAO_0000356 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000050_some_http://purl.obolibrary.org/obo/TAO_0000356">
+        <equivalentClass>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TAO_0000356"/>
+            </Restriction>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000053_some_http://purl.obolibrary.org/obo/PATO_0000462 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000053_some_http://purl.obolibrary.org/obo/PATO_0000462">
+        <equivalentClass>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000053"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000462"/>
+            </Restriction>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+    </Class>
+    
+
+
+    <!-- http://vocab.phenoscape.org/taxon -->
+
+    <Class rdf:about="http://vocab.phenoscape.org/taxon">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </Class>
+    
+
+
+    <!-- http://vocab.phenoscape.org/publication/0000167/matrix/character/1/state/1/phenotype/1 -->
+
+    <Class rdf:about="http://vocab.phenoscape.org/publication/0000167/matrix/character/1/state/1/phenotype/1">
+        <equivalentClass>
+            <Restriction>
+                <onProperty rdf:resource="http://vocab.phenoscape.org/has_member"/>
+                <someValuesFrom>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <someValuesFrom>
+                            <Class>
+                                <intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/TAO_0000356"/>
+                                    <Restriction>
+                                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000053"/>
+                                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000462"/>
+                                    </Restriction>
+                                </intersectionOf>
+                            </Class>
+                        </someValuesFrom>
+                    </Restriction>
+                </someValuesFrom>
+            </Restriction>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </Class>
+    
+
+
+    <!-- http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#CharacterStateDataMatrix -->
+
+    <Class rdf:about="http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#CharacterStateDataMatrix">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </Class>
+    
+
+
+    <!-- http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#Standard -->
+
+    <Class rdf:about="http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#Standard">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </Class>
+    
+
+
+    <!-- http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#StandardCharacter -->
+
+    <Class rdf:about="http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#StandardCharacter">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </Class>
+    
+
+
+    <!-- http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#StandardStateDatum -->
+
+    <Class rdf:about="http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#StandardStateDatum">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </Class>
+    
+
+
+    <!-- http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#TU -->
+
+    <Class rdf:about="http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#TU">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TTO_1320 -->
+
+    <Thing rdf:about="http://purl.obolibrary.org/obo/TTO_1320">
+        <rdf:type rdf:resource="http://vocab.phenoscape.org/taxon"/>
+        <rdf:type rdf:resource="http://vocab.phenoscape.org/publication/0000167/matrix/character/1/state/1/phenotype/1"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <vocab:has_member rdf:resource="uuid:b37aef24-af61-45d7-bea8-626cc6add223-0"/>
+    </Thing>
+    <Axiom>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/TTO_1320"/>
+        <vocab:posited_by rdf:resource="http://vocab.phenoscape.org/publication/0000167/matrix/character/1/otu/0"/>
+        <annotatedTarget rdf:resource="http://vocab.phenoscape.org/publication/0000167/matrix/character/1/state/1/phenotype/1"/>
+        <annotatedProperty rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    </Axiom>
+    
+
+
+    <!-- http://vocab.phenoscape.org/publication/0000167/matrix -->
+
+    <Thing rdf:about="http://vocab.phenoscape.org/publication/0000167/matrix">
+        <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#CharacterStateDataMatrix"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Contains only one character for gill rakers.</rdfs:comment>
+        <vocab:posited_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Contains only one character for gill rakers.</vocab:posited_by>
+        <cdao:has_Character rdf:resource="http://vocab.phenoscape.org/publication/0000167/matrix/character/1"/>
+        <cdao:has_TU rdf:resource="http://vocab.phenoscape.org/publication/0000167/matrix/otu/1"/>
+    </Thing>
+    
+
+
+    <!-- http://vocab.phenoscape.org/publication/0000167/matrix/character/1 -->
+
+    <Thing rdf:about="http://vocab.phenoscape.org/publication/0000167/matrix/character/1">
+        <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#StandardCharacter"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gill rakers</rdfs:label>
+    </Thing>
+    
+
+
+    <!-- http://vocab.phenoscape.org/publication/0000167/matrix/character/1/otu/0 -->
+
+    <Thing rdf:about="http://vocab.phenoscape.org/publication/0000167/matrix/character/1/otu/0">
+        <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#StandardStateDatum"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <cdao:belongs_to_Character rdf:resource="http://vocab.phenoscape.org/publication/0000167/matrix/character/1"/>
+        <cdao:has_State rdf:resource="http://vocab.phenoscape.org/publication/0000167/matrix/character/1/state/1"/>
+        <cdao:belongs_to_TU rdf:resource="http://vocab.phenoscape.org/publication/0000167/matrix/otu/1"/>
+    </Thing>
+    
+
+
+    <!-- http://vocab.phenoscape.org/publication/0000167/matrix/character/1/state/1 -->
+
+    <Thing rdf:about="http://vocab.phenoscape.org/publication/0000167/matrix/character/1/state/1">
+        <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#Standard"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000219"/>
+                <allValuesFrom rdf:resource="http://vocab.phenoscape.org/publication/0000167/matrix/character/1/state/1/phenotype/1"/>
+            </Restriction>
+        </rdf:type>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">absent</rdfs:label>
+    </Thing>
+    
+
+
+    <!-- http://vocab.phenoscape.org/publication/0000167/matrix/otu/1 -->
+
+    <Thing rdf:about="http://vocab.phenoscape.org/publication/0000167/matrix/otu/1">
+        <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#TU"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <vocab:represents_taxon rdf:resource="http://purl.obolibrary.org/obo/TTO_1320"/>
+    </Thing>
+    
+
+
+    <!-- uuid:b37aef24-af61-45d7-bea8-626cc6add223-0 -->
+
+    <Thing rdf:about="uuid:b37aef24-af61-45d7-bea8-626cc6add223-0">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <obo:BFO_0000051 rdf:resource="uuid:b37aef24-af61-45d7-bea8-626cc6add223-1"/>
+    </Thing>
+    
+
+
+    <!-- uuid:b37aef24-af61-45d7-bea8-626cc6add223-1 -->
+
+    <Thing rdf:about="uuid:b37aef24-af61-45d7-bea8-626cc6add223-1">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/TAO_0000356"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000053_some_http://purl.obolibrary.org/obo/PATO_0000462"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <obo:BFO_0000050 rdf:resource="uuid:b37aef24-af61-45d7-bea8-626cc6add223-0"/>
+        <obo:BFO_0000053 rdf:resource="uuid:b37aef24-af61-45d7-bea8-626cc6add223-2"/>
+    </Thing>
+    
+
+
+    <!-- uuid:b37aef24-af61-45d7-bea8-626cc6add223-2 -->
+
+    <Thing rdf:about="uuid:b37aef24-af61-45d7-bea8-626cc6add223-2">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PATO_0000462"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <obo:BFO_0000052 rdf:resource="uuid:b37aef24-af61-45d7-bea8-626cc6add223-1"/>
+    </Thing>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.2.4.1806) http://owlapi.sourceforge.net -->
+
