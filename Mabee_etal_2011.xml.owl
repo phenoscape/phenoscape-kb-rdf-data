@@ -8,9 +8,8 @@
      xmlns:cdao="http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:uuid="uuid:687"
-     xmlns:vocab="http://vocab.phenoscape.org/"
-     xmlns:publication="http://vocab.phenoscape.org/publication/0000168/">
+     xmlns:uuid="http://kb.phenoscape.org/uuid/"
+     xmlns:vocab="http://vocab.phenoscape.org/">
     <Ontology rdf:about="http://www.w3.org/2002/07/owl#genid1">
         <imports rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
     </Ontology>
@@ -127,6 +126,64 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-23 -->
+
+    <Class rdf:about="http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-23">
+        <equivalentClass>
+            <Restriction>
+                <onProperty rdf:resource="http://vocab.phenoscape.org/has_member"/>
+                <someValuesFrom>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <someValuesFrom>
+                            <Class>
+                                <intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/TAO_0000694"/>
+                                    <Restriction>
+                                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000053"/>
+                                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000462"/>
+                                    </Restriction>
+                                </intersectionOf>
+                            </Class>
+                        </someValuesFrom>
+                    </Restriction>
+                </someValuesFrom>
+            </Restriction>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </Class>
+    
+
+
+    <!-- http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-24 -->
+
+    <Class rdf:about="http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-24">
+        <equivalentClass>
+            <Restriction>
+                <onProperty rdf:resource="http://vocab.phenoscape.org/has_member"/>
+                <someValuesFrom>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <someValuesFrom>
+                            <Class>
+                                <intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/TAO_0000694"/>
+                                    <Restriction>
+                                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000053"/>
+                                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000467"/>
+                                    </Restriction>
+                                </intersectionOf>
+                            </Class>
+                        </someValuesFrom>
+                    </Restriction>
+                </someValuesFrom>
+            </Restriction>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </Class>
     
 
 
@@ -406,64 +463,6 @@
     
 
 
-    <!-- http://vocab.phenoscape.org/publication/0000168/matrix/character/21/state/1/phenotype/1 -->
-
-    <Class rdf:about="http://vocab.phenoscape.org/publication/0000168/matrix/character/21/state/1/phenotype/1">
-        <equivalentClass>
-            <Restriction>
-                <onProperty rdf:resource="http://vocab.phenoscape.org/has_member"/>
-                <someValuesFrom>
-                    <Restriction>
-                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                        <someValuesFrom>
-                            <Class>
-                                <intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/TAO_0000694"/>
-                                    <Restriction>
-                                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000053"/>
-                                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000462"/>
-                                    </Restriction>
-                                </intersectionOf>
-                            </Class>
-                        </someValuesFrom>
-                    </Restriction>
-                </someValuesFrom>
-            </Restriction>
-        </equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </Class>
-    
-
-
-    <!-- http://vocab.phenoscape.org/publication/0000168/matrix/character/21/state/2/phenotype/1 -->
-
-    <Class rdf:about="http://vocab.phenoscape.org/publication/0000168/matrix/character/21/state/2/phenotype/1">
-        <equivalentClass>
-            <Restriction>
-                <onProperty rdf:resource="http://vocab.phenoscape.org/has_member"/>
-                <someValuesFrom>
-                    <Restriction>
-                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                        <someValuesFrom>
-                            <Class>
-                                <intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/TAO_0000694"/>
-                                    <Restriction>
-                                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000053"/>
-                                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000467"/>
-                                    </Restriction>
-                                </intersectionOf>
-                            </Class>
-                        </someValuesFrom>
-                    </Restriction>
-                </someValuesFrom>
-            </Restriction>
-        </equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </Class>
-    
-
-
     <!-- http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#CharacterStateDataMatrix -->
 
     <Class rdf:about="http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#CharacterStateDataMatrix">
@@ -515,312 +514,42 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/TTO_1053563 -->
+    <!-- http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-0 -->
 
-    <Thing rdf:about="http://purl.obolibrary.org/obo/TTO_1053563">
-        <rdf:type rdf:resource="http://vocab.phenoscape.org/taxon"/>
-        <rdf:type rdf:resource="http://vocab.phenoscape.org/publication/0000168/matrix/character/21/state/1/phenotype/1"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-        <vocab:has_member rdf:resource="uuid:687fd0d4-d078-44ca-b0e1-362f610207ca-0"/>
-    </Thing>
-    <Axiom>
-        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/TTO_1053563"/>
-        <vocab:posited_by rdf:resource="http://vocab.phenoscape.org/publication/0000168/matrix/character/21/otu/0"/>
-        <annotatedTarget rdf:resource="http://vocab.phenoscape.org/publication/0000168/matrix/character/21/state/1/phenotype/1"/>
-        <annotatedProperty rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
-    </Axiom>
-    
-
-
-    <!-- http://vocab.phenoscape.org/publication/0000168/matrix -->
-
-    <Thing rdf:about="http://vocab.phenoscape.org/publication/0000168/matrix">
+    <Thing rdf:about="http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-0">
         <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#CharacterStateDataMatrix"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Contains only one character for now.</rdfs:comment>
         <vocab:posited_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Contains only one character for now.</vocab:posited_by>
-        <cdao:has_Character rdf:resource="http://vocab.phenoscape.org/publication/0000168/matrix/character/1"/>
-        <cdao:has_Character rdf:resource="http://vocab.phenoscape.org/publication/0000168/matrix/character/10"/>
-        <cdao:has_Character rdf:resource="http://vocab.phenoscape.org/publication/0000168/matrix/character/11"/>
-        <cdao:has_Character rdf:resource="http://vocab.phenoscape.org/publication/0000168/matrix/character/12"/>
-        <cdao:has_Character rdf:resource="http://vocab.phenoscape.org/publication/0000168/matrix/character/13"/>
-        <cdao:has_Character rdf:resource="http://vocab.phenoscape.org/publication/0000168/matrix/character/14"/>
-        <cdao:has_Character rdf:resource="http://vocab.phenoscape.org/publication/0000168/matrix/character/15"/>
-        <cdao:has_Character rdf:resource="http://vocab.phenoscape.org/publication/0000168/matrix/character/16"/>
-        <cdao:has_Character rdf:resource="http://vocab.phenoscape.org/publication/0000168/matrix/character/17"/>
-        <cdao:has_Character rdf:resource="http://vocab.phenoscape.org/publication/0000168/matrix/character/18"/>
-        <cdao:has_Character rdf:resource="http://vocab.phenoscape.org/publication/0000168/matrix/character/19"/>
-        <cdao:has_Character rdf:resource="http://vocab.phenoscape.org/publication/0000168/matrix/character/2"/>
-        <cdao:has_Character rdf:resource="http://vocab.phenoscape.org/publication/0000168/matrix/character/20"/>
-        <cdao:has_Character rdf:resource="http://vocab.phenoscape.org/publication/0000168/matrix/character/21"/>
-        <cdao:has_Character rdf:resource="http://vocab.phenoscape.org/publication/0000168/matrix/character/3"/>
-        <cdao:has_Character rdf:resource="http://vocab.phenoscape.org/publication/0000168/matrix/character/4"/>
-        <cdao:has_Character rdf:resource="http://vocab.phenoscape.org/publication/0000168/matrix/character/5"/>
-        <cdao:has_Character rdf:resource="http://vocab.phenoscape.org/publication/0000168/matrix/character/6"/>
-        <cdao:has_Character rdf:resource="http://vocab.phenoscape.org/publication/0000168/matrix/character/7"/>
-        <cdao:has_Character rdf:resource="http://vocab.phenoscape.org/publication/0000168/matrix/character/8"/>
-        <cdao:has_Character rdf:resource="http://vocab.phenoscape.org/publication/0000168/matrix/character/9"/>
-        <cdao:has_TU rdf:resource="http://vocab.phenoscape.org/publication/0000168/matrix/otu/1"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Contains only one character for now.</rdfs:comment>
+        <cdao:has_TU rdf:resource="http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-1"/>
+        <cdao:has_Character rdf:resource="http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-10"/>
+        <cdao:has_Character rdf:resource="http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-11"/>
+        <cdao:has_Character rdf:resource="http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-12"/>
+        <cdao:has_Character rdf:resource="http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-13"/>
+        <cdao:has_Character rdf:resource="http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-14"/>
+        <cdao:has_Character rdf:resource="http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-15"/>
+        <cdao:has_Character rdf:resource="http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-16"/>
+        <cdao:has_Character rdf:resource="http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-17"/>
+        <cdao:has_Character rdf:resource="http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-18"/>
+        <cdao:has_Character rdf:resource="http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-19"/>
+        <cdao:has_Character rdf:resource="http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-2"/>
+        <cdao:has_Character rdf:resource="http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-20"/>
+        <cdao:has_Character rdf:resource="http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-21"/>
+        <cdao:has_Character rdf:resource="http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-22"/>
+        <cdao:has_Character rdf:resource="http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-3"/>
+        <cdao:has_Character rdf:resource="http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-4"/>
+        <cdao:has_Character rdf:resource="http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-5"/>
+        <cdao:has_Character rdf:resource="http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-6"/>
+        <cdao:has_Character rdf:resource="http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-7"/>
+        <cdao:has_Character rdf:resource="http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-8"/>
+        <cdao:has_Character rdf:resource="http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-9"/>
     </Thing>
     
 
 
-    <!-- http://vocab.phenoscape.org/publication/0000168/matrix/character/1 -->
+    <!-- http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-1 -->
 
-    <Thing rdf:about="http://vocab.phenoscape.org/publication/0000168/matrix/character/1">
-        <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#StandardCharacter"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    </Thing>
-    
-
-
-    <!-- http://vocab.phenoscape.org/publication/0000168/matrix/character/10 -->
-
-    <Thing rdf:about="http://vocab.phenoscape.org/publication/0000168/matrix/character/10">
-        <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#StandardCharacter"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    </Thing>
-    
-
-
-    <!-- http://vocab.phenoscape.org/publication/0000168/matrix/character/11 -->
-
-    <Thing rdf:about="http://vocab.phenoscape.org/publication/0000168/matrix/character/11">
-        <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#StandardCharacter"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    </Thing>
-    
-
-
-    <!-- http://vocab.phenoscape.org/publication/0000168/matrix/character/12 -->
-
-    <Thing rdf:about="http://vocab.phenoscape.org/publication/0000168/matrix/character/12">
-        <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#StandardCharacter"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    </Thing>
-    
-
-
-    <!-- http://vocab.phenoscape.org/publication/0000168/matrix/character/13 -->
-
-    <Thing rdf:about="http://vocab.phenoscape.org/publication/0000168/matrix/character/13">
-        <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#StandardCharacter"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    </Thing>
-    
-
-
-    <!-- http://vocab.phenoscape.org/publication/0000168/matrix/character/14 -->
-
-    <Thing rdf:about="http://vocab.phenoscape.org/publication/0000168/matrix/character/14">
-        <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#StandardCharacter"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    </Thing>
-    
-
-
-    <!-- http://vocab.phenoscape.org/publication/0000168/matrix/character/15 -->
-
-    <Thing rdf:about="http://vocab.phenoscape.org/publication/0000168/matrix/character/15">
-        <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#StandardCharacter"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    </Thing>
-    
-
-
-    <!-- http://vocab.phenoscape.org/publication/0000168/matrix/character/16 -->
-
-    <Thing rdf:about="http://vocab.phenoscape.org/publication/0000168/matrix/character/16">
-        <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#StandardCharacter"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    </Thing>
-    
-
-
-    <!-- http://vocab.phenoscape.org/publication/0000168/matrix/character/17 -->
-
-    <Thing rdf:about="http://vocab.phenoscape.org/publication/0000168/matrix/character/17">
-        <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#StandardCharacter"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    </Thing>
-    
-
-
-    <!-- http://vocab.phenoscape.org/publication/0000168/matrix/character/18 -->
-
-    <Thing rdf:about="http://vocab.phenoscape.org/publication/0000168/matrix/character/18">
-        <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#StandardCharacter"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    </Thing>
-    
-
-
-    <!-- http://vocab.phenoscape.org/publication/0000168/matrix/character/19 -->
-
-    <Thing rdf:about="http://vocab.phenoscape.org/publication/0000168/matrix/character/19">
-        <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#StandardCharacter"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    </Thing>
-    
-
-
-    <!-- http://vocab.phenoscape.org/publication/0000168/matrix/character/2 -->
-
-    <Thing rdf:about="http://vocab.phenoscape.org/publication/0000168/matrix/character/2">
-        <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#StandardCharacter"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    </Thing>
-    
-
-
-    <!-- http://vocab.phenoscape.org/publication/0000168/matrix/character/20 -->
-
-    <Thing rdf:about="http://vocab.phenoscape.org/publication/0000168/matrix/character/20">
-        <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#StandardCharacter"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    </Thing>
-    
-
-
-    <!-- http://vocab.phenoscape.org/publication/0000168/matrix/character/21 -->
-
-    <Thing rdf:about="http://vocab.phenoscape.org/publication/0000168/matrix/character/21">
-        <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#StandardCharacter"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ceratobranchial 5 tooth</rdfs:label>
-    </Thing>
-    
-
-
-    <!-- http://vocab.phenoscape.org/publication/0000168/matrix/character/3 -->
-
-    <Thing rdf:about="http://vocab.phenoscape.org/publication/0000168/matrix/character/3">
-        <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#StandardCharacter"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    </Thing>
-    
-
-
-    <!-- http://vocab.phenoscape.org/publication/0000168/matrix/character/4 -->
-
-    <Thing rdf:about="http://vocab.phenoscape.org/publication/0000168/matrix/character/4">
-        <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#StandardCharacter"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    </Thing>
-    
-
-
-    <!-- http://vocab.phenoscape.org/publication/0000168/matrix/character/5 -->
-
-    <Thing rdf:about="http://vocab.phenoscape.org/publication/0000168/matrix/character/5">
-        <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#StandardCharacter"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    </Thing>
-    
-
-
-    <!-- http://vocab.phenoscape.org/publication/0000168/matrix/character/6 -->
-
-    <Thing rdf:about="http://vocab.phenoscape.org/publication/0000168/matrix/character/6">
-        <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#StandardCharacter"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    </Thing>
-    
-
-
-    <!-- http://vocab.phenoscape.org/publication/0000168/matrix/character/7 -->
-
-    <Thing rdf:about="http://vocab.phenoscape.org/publication/0000168/matrix/character/7">
-        <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#StandardCharacter"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    </Thing>
-    
-
-
-    <!-- http://vocab.phenoscape.org/publication/0000168/matrix/character/8 -->
-
-    <Thing rdf:about="http://vocab.phenoscape.org/publication/0000168/matrix/character/8">
-        <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#StandardCharacter"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    </Thing>
-    
-
-
-    <!-- http://vocab.phenoscape.org/publication/0000168/matrix/character/9 -->
-
-    <Thing rdf:about="http://vocab.phenoscape.org/publication/0000168/matrix/character/9">
-        <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#StandardCharacter"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    </Thing>
-    
-
-
-    <!-- http://vocab.phenoscape.org/publication/0000168/matrix/character/1/state/1 -->
-
-    <Thing rdf:about="http://vocab.phenoscape.org/publication/0000168/matrix/character/1/state/1">
-        <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#Standard"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">absent</rdfs:label>
-    </Thing>
-    
-
-
-    <!-- http://vocab.phenoscape.org/publication/0000168/matrix/character/1/state/2 -->
-
-    <Thing rdf:about="http://vocab.phenoscape.org/publication/0000168/matrix/character/1/state/2">
-        <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#Standard"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    </Thing>
-    
-
-
-    <!-- http://vocab.phenoscape.org/publication/0000168/matrix/character/21/otu/0 -->
-
-    <Thing rdf:about="http://vocab.phenoscape.org/publication/0000168/matrix/character/21/otu/0">
-        <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#StandardStateDatum"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-        <cdao:belongs_to_Character rdf:resource="http://vocab.phenoscape.org/publication/0000168/matrix/character/21"/>
-        <cdao:has_State rdf:resource="http://vocab.phenoscape.org/publication/0000168/matrix/character/21/state/1"/>
-        <cdao:belongs_to_TU rdf:resource="http://vocab.phenoscape.org/publication/0000168/matrix/otu/1"/>
-    </Thing>
-    
-
-
-    <!-- http://vocab.phenoscape.org/publication/0000168/matrix/character/21/state/1 -->
-
-    <Thing rdf:about="http://vocab.phenoscape.org/publication/0000168/matrix/character/21/state/1">
-        <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#Standard"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-        <rdf:type>
-            <Restriction>
-                <onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000219"/>
-                <allValuesFrom rdf:resource="http://vocab.phenoscape.org/publication/0000168/matrix/character/21/state/1/phenotype/1"/>
-            </Restriction>
-        </rdf:type>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">absent</rdfs:label>
-    </Thing>
-    
-
-
-    <!-- http://vocab.phenoscape.org/publication/0000168/matrix/character/21/state/2 -->
-
-    <Thing rdf:about="http://vocab.phenoscape.org/publication/0000168/matrix/character/21/state/2">
-        <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#Standard"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-        <rdf:type>
-            <Restriction>
-                <onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000219"/>
-                <allValuesFrom rdf:resource="http://vocab.phenoscape.org/publication/0000168/matrix/character/21/state/2/phenotype/1"/>
-            </Restriction>
-        </rdf:type>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">present</rdfs:label>
-    </Thing>
-    
-
-
-    <!-- http://vocab.phenoscape.org/publication/0000168/matrix/otu/1 -->
-
-    <Thing rdf:about="http://vocab.phenoscape.org/publication/0000168/matrix/otu/1">
+    <Thing rdf:about="http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-1">
         <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#TU"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gyrinocheilus aymonieri</rdfs:label>
@@ -829,37 +558,307 @@
     
 
 
-    <!-- uuid:687fd0d4-d078-44ca-b0e1-362f610207ca-0 -->
+    <!-- http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-10 -->
 
-    <Thing rdf:about="uuid:687fd0d4-d078-44ca-b0e1-362f610207ca-0">
+    <Thing rdf:about="http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-10">
+        <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#StandardCharacter"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-        <obo:BFO_0000051 rdf:resource="uuid:687fd0d4-d078-44ca-b0e1-362f610207ca-1"/>
     </Thing>
     
 
 
-    <!-- uuid:687fd0d4-d078-44ca-b0e1-362f610207ca-1 -->
+    <!-- http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-11 -->
 
-    <Thing rdf:about="uuid:687fd0d4-d078-44ca-b0e1-362f610207ca-1">
+    <Thing rdf:about="http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-11">
+        <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#StandardCharacter"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-12 -->
+
+    <Thing rdf:about="http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-12">
+        <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#StandardCharacter"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-13 -->
+
+    <Thing rdf:about="http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-13">
+        <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#StandardCharacter"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-14 -->
+
+    <Thing rdf:about="http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-14">
+        <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#StandardCharacter"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-15 -->
+
+    <Thing rdf:about="http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-15">
+        <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#StandardCharacter"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-16 -->
+
+    <Thing rdf:about="http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-16">
+        <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#StandardCharacter"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-17 -->
+
+    <Thing rdf:about="http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-17">
+        <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#StandardCharacter"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-18 -->
+
+    <Thing rdf:about="http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-18">
+        <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#StandardCharacter"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-19 -->
+
+    <Thing rdf:about="http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-19">
+        <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#StandardCharacter"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-2 -->
+
+    <Thing rdf:about="http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-2">
+        <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#StandardCharacter"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-20 -->
+
+    <Thing rdf:about="http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-20">
+        <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#StandardCharacter"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-21 -->
+
+    <Thing rdf:about="http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-21">
+        <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#StandardCharacter"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-22 -->
+
+    <Thing rdf:about="http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-22">
+        <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#StandardCharacter"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ceratobranchial 5 tooth</rdfs:label>
+    </Thing>
+    
+
+
+    <!-- http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-25 -->
+
+    <Thing rdf:about="http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-25">
+        <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#StandardStateDatum"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <cdao:belongs_to_TU rdf:resource="http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-1"/>
+        <cdao:belongs_to_Character rdf:resource="http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-22"/>
+        <cdao:has_State rdf:resource="http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-22/state/1"/>
+    </Thing>
+    
+
+
+    <!-- http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-26 -->
+
+    <Thing rdf:about="http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-26">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <obo:BFO_0000051 rdf:resource="http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-27"/>
+    </Thing>
+    
+
+
+    <!-- http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-27 -->
+
+    <Thing rdf:about="http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-27">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/TAO_0000694"/>
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000053_some_http://purl.obolibrary.org/obo/PATO_0000462"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-        <obo:BFO_0000050 rdf:resource="uuid:687fd0d4-d078-44ca-b0e1-362f610207ca-0"/>
-        <obo:BFO_0000053 rdf:resource="uuid:687fd0d4-d078-44ca-b0e1-362f610207ca-2"/>
+        <obo:BFO_0000050 rdf:resource="http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-26"/>
+        <obo:BFO_0000053 rdf:resource="http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-28"/>
     </Thing>
     
 
 
-    <!-- uuid:687fd0d4-d078-44ca-b0e1-362f610207ca-2 -->
+    <!-- http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-28 -->
 
-    <Thing rdf:about="uuid:687fd0d4-d078-44ca-b0e1-362f610207ca-2">
+    <Thing rdf:about="http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-28">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PATO_0000462"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-        <obo:BFO_0000052 rdf:resource="uuid:687fd0d4-d078-44ca-b0e1-362f610207ca-1"/>
+        <obo:BFO_0000052 rdf:resource="http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-27"/>
     </Thing>
+    
+
+
+    <!-- http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-3 -->
+
+    <Thing rdf:about="http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-3">
+        <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#StandardCharacter"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-4 -->
+
+    <Thing rdf:about="http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-4">
+        <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#StandardCharacter"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-5 -->
+
+    <Thing rdf:about="http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-5">
+        <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#StandardCharacter"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-6 -->
+
+    <Thing rdf:about="http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-6">
+        <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#StandardCharacter"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-7 -->
+
+    <Thing rdf:about="http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-7">
+        <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#StandardCharacter"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-8 -->
+
+    <Thing rdf:about="http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-8">
+        <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#StandardCharacter"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-9 -->
+
+    <Thing rdf:about="http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-9">
+        <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#StandardCharacter"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-2/state/1 -->
+
+    <Thing rdf:about="http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-2/state/1">
+        <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#Standard"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">absent</rdfs:label>
+    </Thing>
+    
+
+
+    <!-- http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-2/state/2 -->
+
+    <Thing rdf:about="http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-2/state/2">
+        <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#Standard"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-22/state/1 -->
+
+    <Thing rdf:about="http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-22/state/1">
+        <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#Standard"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000219"/>
+                <allValuesFrom rdf:resource="http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-23"/>
+            </Restriction>
+        </rdf:type>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">absent</rdfs:label>
+    </Thing>
+    
+
+
+    <!-- http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-22/state/2 -->
+
+    <Thing rdf:about="http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-22/state/2">
+        <rdf:type rdf:resource="http://www.evolutionaryontology.org/cdao/1.0/cdao.owl#Standard"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000219"/>
+                <allValuesFrom rdf:resource="http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-24"/>
+            </Restriction>
+        </rdf:type>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">present</rdfs:label>
+    </Thing>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TTO_1053563 -->
+
+    <Thing rdf:about="http://purl.obolibrary.org/obo/TTO_1053563">
+        <rdf:type rdf:resource="http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-23"/>
+        <rdf:type rdf:resource="http://vocab.phenoscape.org/taxon"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <vocab:has_member rdf:resource="http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-26"/>
+    </Thing>
+    <Axiom>
+        <annotatedTarget rdf:resource="http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-23"/>
+        <vocab:posited_by rdf:resource="http://kb.phenoscape.org/uuid/d8d53232-4144-4e20-b101-fd6e272c1d72-25"/>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/TTO_1053563"/>
+        <annotatedProperty rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    </Axiom>
 </rdf:RDF>
 
 
