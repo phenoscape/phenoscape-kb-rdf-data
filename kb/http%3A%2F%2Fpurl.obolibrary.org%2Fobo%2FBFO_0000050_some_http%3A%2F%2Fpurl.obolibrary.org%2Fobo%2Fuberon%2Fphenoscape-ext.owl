@@ -55,6 +55,30 @@
     
 
 
+    <!-- http://purl.obolibrary.obo/obo/UBERON_1500007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.obo/obo/UBERON_1500007"/>
+    
+
+
+    <!-- http://purl.obolibrary.obo/obo/UBERON_1500008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.obo/obo/UBERON_1500008"/>
+    
+
+
+    <!-- http://purl.obolibrary.obo/obo/UBERON_1500009 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.obo/obo/UBERON_1500009"/>
+    
+
+
+    <!-- http://purl.obolibrary.obo/obo/UBERON_1500010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.obo/obo/UBERON_1500010"/>
+    
+
+
     <!-- http://purl.obolibrary.obo/obo/UBERON_4100000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.obo/obo/UBERON_4100000"/>
@@ -19165,6 +19189,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_4200002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_4200002"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_4400000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_4400000"/>
@@ -19228,6 +19258,58 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.obo/obo/UBERON_1500006"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000050_some_http://purl.obolibrary.obo/obo/UBERON_1500007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000050_some_http://purl.obolibrary.obo/obo/UBERON_1500007">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.obo/obo/UBERON_1500007"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000050_some_http://purl.obolibrary.obo/obo/UBERON_1500008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000050_some_http://purl.obolibrary.obo/obo/UBERON_1500008">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.obo/obo/UBERON_1500008"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000050_some_http://purl.obolibrary.obo/obo/UBERON_1500009 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000050_some_http://purl.obolibrary.obo/obo/UBERON_1500009">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.obo/obo/UBERON_1500009"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000050_some_http://purl.obolibrary.obo/obo/UBERON_1500010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000050_some_http://purl.obolibrary.obo/obo/UBERON_1500010">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.obo/obo/UBERON_1500010"/>
             </owl:Restriction>
         </owl:equivalentClass>
     </owl:Class>
@@ -60633,6 +60715,19 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_4200001"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000050_some_http://purl.obolibrary.org/obo/UBERON_4200002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000050_some_http://purl.obolibrary.org/obo/UBERON_4200002">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_4200002"/>
             </owl:Restriction>
         </owl:equivalentClass>
     </owl:Class>

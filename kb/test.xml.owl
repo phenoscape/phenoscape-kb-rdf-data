@@ -67,19 +67,19 @@
     
 
 
-    <!-- http://kb.phenoscape.org/uuid/1b01335e-2286-484c-b151-ba3d824c5864-1 -->
+    <!-- http://kb.phenoscape.org/uuid/9aa4961e-6155-4426-9e9c-c44506af1424-1 -->
 
-    <Thing rdf:about="http://kb.phenoscape.org/uuid/1b01335e-2286-484c-b151-ba3d824c5864-1">
+    <Thing rdf:about="http://kb.phenoscape.org/uuid/9aa4961e-6155-4426-9e9c-c44506af1424-1">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000056"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-        <obo:CDAO_0000208 rdf:resource="http://kb.phenoscape.org/uuid/1b01335e-2286-484c-b151-ba3d824c5864-2"/>
+        <obo:CDAO_0000208 rdf:resource="http://kb.phenoscape.org/uuid/9aa4961e-6155-4426-9e9c-c44506af1424-2"/>
     </Thing>
     
 
 
-    <!-- http://kb.phenoscape.org/uuid/1b01335e-2286-484c-b151-ba3d824c5864-2 -->
+    <!-- http://kb.phenoscape.org/uuid/9aa4961e-6155-4426-9e9c-c44506af1424-2 -->
 
-    <Thing rdf:about="http://kb.phenoscape.org/uuid/1b01335e-2286-484c-b151-ba3d824c5864-2">
+    <Thing rdf:about="http://kb.phenoscape.org/uuid/9aa4961e-6155-4426-9e9c-c44506af1424-2">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000138"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     </Thing>

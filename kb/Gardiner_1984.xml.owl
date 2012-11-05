@@ -122,6 +122,12 @@
     
 
 
+    <!-- http://vocab.phenoscape.org/involves -->
+
+    <ObjectProperty rdf:about="http://vocab.phenoscape.org/involves"/>
+    
+
+
     <!-- http://vocab.phenoscape.org/may_have_state_value -->
 
     <ObjectProperty rdf:about="http://vocab.phenoscape.org/may_have_state_value"/>
@@ -139,9 +145,9 @@
     
 
 
-    <!-- http://kb.phenoscape.org/uuid/2133c407-95ad-4426-b7de-2162818adc95-5 -->
+    <!-- http://kb.phenoscape.org/uuid/4acb87f6-c733-4096-b1d8-72573e77f8ff-5 -->
 
-    <Class rdf:about="http://kb.phenoscape.org/uuid/2133c407-95ad-4426-b7de-2162818adc95-5">
+    <Class rdf:about="http://kb.phenoscape.org/uuid/4acb87f6-c733-4096-b1d8-72573e77f8ff-5">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <rdfs:subClassOf>
             <Restriction>
@@ -163,9 +169,9 @@
     
 
 
-    <!-- http://kb.phenoscape.org/uuid/2133c407-95ad-4426-b7de-2162818adc95-9 -->
+    <!-- http://kb.phenoscape.org/uuid/4acb87f6-c733-4096-b1d8-72573e77f8ff-9 -->
 
-    <Class rdf:about="http://kb.phenoscape.org/uuid/2133c407-95ad-4426-b7de-2162818adc95-9">
+    <Class rdf:about="http://kb.phenoscape.org/uuid/4acb87f6-c733-4096-b1d8-72573e77f8ff-9">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <rdfs:subClassOf>
             <Restriction>
@@ -389,6 +395,48 @@
     
 
 
+    <!-- http://vocab.phenoscape.org/involves_some_http://purl.obolibrary.org/obo/PATO_0000467 -->
+
+    <Class rdf:about="http://vocab.phenoscape.org/involves_some_http://purl.obolibrary.org/obo/PATO_0000467">
+        <equivalentClass>
+            <Restriction>
+                <onProperty rdf:resource="http://vocab.phenoscape.org/involves"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000467"/>
+            </Restriction>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </Class>
+    
+
+
+    <!-- http://vocab.phenoscape.org/involves_some_http://purl.obolibrary.org/obo/UBERON_0011615 -->
+
+    <Class rdf:about="http://vocab.phenoscape.org/involves_some_http://purl.obolibrary.org/obo/UBERON_0011615">
+        <equivalentClass>
+            <Restriction>
+                <onProperty rdf:resource="http://vocab.phenoscape.org/involves"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0011615"/>
+            </Restriction>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </Class>
+    
+
+
+    <!-- http://vocab.phenoscape.org/involves_some_http://purl.obolibrary.org/obo/UBERON_0011618 -->
+
+    <Class rdf:about="http://vocab.phenoscape.org/involves_some_http://purl.obolibrary.org/obo/UBERON_0011618">
+        <equivalentClass>
+            <Restriction>
+                <onProperty rdf:resource="http://vocab.phenoscape.org/involves"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0011618"/>
+            </Restriction>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </Class>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -400,123 +448,129 @@
     
 
 
-    <!-- http://kb.phenoscape.org/uuid/2133c407-95ad-4426-b7de-2162818adc95-1 -->
+    <!-- http://kb.phenoscape.org/uuid/4acb87f6-c733-4096-b1d8-72573e77f8ff-1 -->
 
-    <Thing rdf:about="http://kb.phenoscape.org/uuid/2133c407-95ad-4426-b7de-2162818adc95-1">
+    <Thing rdf:about="http://kb.phenoscape.org/uuid/4acb87f6-c733-4096-b1d8-72573e77f8ff-1">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000056"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Checked for polymorphs. Unable to access PDF or Mesquite file, so unsure if polymorphs present. Based on there being one character, I assume no polymorphs. AB 10/17/12</rdfs:comment>
-        <obo:CDAO_0000208 rdf:resource="http://kb.phenoscape.org/uuid/2133c407-95ad-4426-b7de-2162818adc95-2"/>
-        <obo:CDAO_0000142 rdf:resource="http://kb.phenoscape.org/uuid/2133c407-95ad-4426-b7de-2162818adc95-3"/>
+        <obo:CDAO_0000208 rdf:resource="http://kb.phenoscape.org/uuid/4acb87f6-c733-4096-b1d8-72573e77f8ff-2"/>
+        <obo:CDAO_0000142 rdf:resource="http://kb.phenoscape.org/uuid/4acb87f6-c733-4096-b1d8-72573e77f8ff-3"/>
     </Thing>
     
 
 
-    <!-- http://kb.phenoscape.org/uuid/2133c407-95ad-4426-b7de-2162818adc95-10 -->
+    <!-- http://kb.phenoscape.org/uuid/4acb87f6-c733-4096-b1d8-72573e77f8ff-10 -->
 
-    <Thing rdf:about="http://kb.phenoscape.org/uuid/2133c407-95ad-4426-b7de-2162818adc95-10">
-        <rdf:type rdf:resource="http://kb.phenoscape.org/uuid/2133c407-95ad-4426-b7de-2162818adc95-9"/>
+    <Thing rdf:about="http://kb.phenoscape.org/uuid/4acb87f6-c733-4096-b1d8-72573e77f8ff-10">
+        <rdf:type rdf:resource="http://kb.phenoscape.org/uuid/4acb87f6-c733-4096-b1d8-72573e77f8ff-9"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-        <obo:BFO_0000051 rdf:resource="http://kb.phenoscape.org/uuid/2133c407-95ad-4426-b7de-2162818adc95-11"/>
+        <obo:BFO_0000051 rdf:resource="http://kb.phenoscape.org/uuid/4acb87f6-c733-4096-b1d8-72573e77f8ff-11"/>
     </Thing>
     
 
 
-    <!-- http://kb.phenoscape.org/uuid/2133c407-95ad-4426-b7de-2162818adc95-11 -->
+    <!-- http://kb.phenoscape.org/uuid/4acb87f6-c733-4096-b1d8-72573e77f8ff-11 -->
 
-    <Thing rdf:about="http://kb.phenoscape.org/uuid/2133c407-95ad-4426-b7de-2162818adc95-11">
+    <Thing rdf:about="http://kb.phenoscape.org/uuid/4acb87f6-c733-4096-b1d8-72573e77f8ff-11">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UBERON_0011618"/>
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000053_some_http://purl.obolibrary.org/obo/PATO_0000467"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-        <obo:BFO_0000053 rdf:resource="http://kb.phenoscape.org/uuid/2133c407-95ad-4426-b7de-2162818adc95-12"/>
+        <obo:BFO_0000050 rdf:resource="http://kb.phenoscape.org/uuid/4acb87f6-c733-4096-b1d8-72573e77f8ff-10"/>
+        <obo:BFO_0000053 rdf:resource="http://kb.phenoscape.org/uuid/4acb87f6-c733-4096-b1d8-72573e77f8ff-12"/>
     </Thing>
     
 
 
-    <!-- http://kb.phenoscape.org/uuid/2133c407-95ad-4426-b7de-2162818adc95-12 -->
+    <!-- http://kb.phenoscape.org/uuid/4acb87f6-c733-4096-b1d8-72573e77f8ff-12 -->
 
-    <Thing rdf:about="http://kb.phenoscape.org/uuid/2133c407-95ad-4426-b7de-2162818adc95-12">
+    <Thing rdf:about="http://kb.phenoscape.org/uuid/4acb87f6-c733-4096-b1d8-72573e77f8ff-12">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PATO_0000467"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <obo:BFO_0000052 rdf:resource="http://kb.phenoscape.org/uuid/4acb87f6-c733-4096-b1d8-72573e77f8ff-11"/>
     </Thing>
     
 
 
-    <!-- http://kb.phenoscape.org/uuid/2133c407-95ad-4426-b7de-2162818adc95-13 -->
+    <!-- http://kb.phenoscape.org/uuid/4acb87f6-c733-4096-b1d8-72573e77f8ff-13 -->
 
-    <Thing rdf:about="http://kb.phenoscape.org/uuid/2133c407-95ad-4426-b7de-2162818adc95-13">
+    <Thing rdf:about="http://kb.phenoscape.org/uuid/4acb87f6-c733-4096-b1d8-72573e77f8ff-13">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000008"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-        <obo:CDAO_0000191 rdf:resource="http://kb.phenoscape.org/uuid/2133c407-95ad-4426-b7de-2162818adc95-2"/>
-        <obo:CDAO_0000205 rdf:resource="http://kb.phenoscape.org/uuid/2133c407-95ad-4426-b7de-2162818adc95-3"/>
-        <obo:CDAO_0000184 rdf:resource="http://kb.phenoscape.org/uuid/2133c407-95ad-4426-b7de-2162818adc95-4"/>
+        <obo:CDAO_0000191 rdf:resource="http://kb.phenoscape.org/uuid/4acb87f6-c733-4096-b1d8-72573e77f8ff-2"/>
+        <obo:CDAO_0000205 rdf:resource="http://kb.phenoscape.org/uuid/4acb87f6-c733-4096-b1d8-72573e77f8ff-3"/>
+        <obo:CDAO_0000184 rdf:resource="http://kb.phenoscape.org/uuid/4acb87f6-c733-4096-b1d8-72573e77f8ff-4"/>
     </Thing>
     
 
 
-    <!-- http://kb.phenoscape.org/uuid/2133c407-95ad-4426-b7de-2162818adc95-14 -->
+    <!-- http://kb.phenoscape.org/uuid/4acb87f6-c733-4096-b1d8-72573e77f8ff-14 -->
 
-    <Thing rdf:about="http://kb.phenoscape.org/uuid/2133c407-95ad-4426-b7de-2162818adc95-14">
-        <rdf:type rdf:resource="http://kb.phenoscape.org/uuid/2133c407-95ad-4426-b7de-2162818adc95-9"/>
+    <Thing rdf:about="http://kb.phenoscape.org/uuid/4acb87f6-c733-4096-b1d8-72573e77f8ff-14">
+        <rdf:type rdf:resource="http://kb.phenoscape.org/uuid/4acb87f6-c733-4096-b1d8-72573e77f8ff-9"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-        <obo:BFO_0000051 rdf:resource="http://kb.phenoscape.org/uuid/2133c407-95ad-4426-b7de-2162818adc95-15"/>
+        <obo:BFO_0000051 rdf:resource="http://kb.phenoscape.org/uuid/4acb87f6-c733-4096-b1d8-72573e77f8ff-15"/>
     </Thing>
     
 
 
-    <!-- http://kb.phenoscape.org/uuid/2133c407-95ad-4426-b7de-2162818adc95-15 -->
+    <!-- http://kb.phenoscape.org/uuid/4acb87f6-c733-4096-b1d8-72573e77f8ff-15 -->
 
-    <Thing rdf:about="http://kb.phenoscape.org/uuid/2133c407-95ad-4426-b7de-2162818adc95-15">
+    <Thing rdf:about="http://kb.phenoscape.org/uuid/4acb87f6-c733-4096-b1d8-72573e77f8ff-15">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UBERON_0011618"/>
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000053_some_http://purl.obolibrary.org/obo/PATO_0000467"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-        <obo:BFO_0000053 rdf:resource="http://kb.phenoscape.org/uuid/2133c407-95ad-4426-b7de-2162818adc95-16"/>
+        <obo:BFO_0000050 rdf:resource="http://kb.phenoscape.org/uuid/4acb87f6-c733-4096-b1d8-72573e77f8ff-14"/>
+        <obo:BFO_0000053 rdf:resource="http://kb.phenoscape.org/uuid/4acb87f6-c733-4096-b1d8-72573e77f8ff-16"/>
     </Thing>
     
 
 
-    <!-- http://kb.phenoscape.org/uuid/2133c407-95ad-4426-b7de-2162818adc95-16 -->
+    <!-- http://kb.phenoscape.org/uuid/4acb87f6-c733-4096-b1d8-72573e77f8ff-16 -->
 
-    <Thing rdf:about="http://kb.phenoscape.org/uuid/2133c407-95ad-4426-b7de-2162818adc95-16">
+    <Thing rdf:about="http://kb.phenoscape.org/uuid/4acb87f6-c733-4096-b1d8-72573e77f8ff-16">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PATO_0000467"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <obo:BFO_0000052 rdf:resource="http://kb.phenoscape.org/uuid/4acb87f6-c733-4096-b1d8-72573e77f8ff-15"/>
     </Thing>
     
 
 
-    <!-- http://kb.phenoscape.org/uuid/2133c407-95ad-4426-b7de-2162818adc95-17 -->
+    <!-- http://kb.phenoscape.org/uuid/4acb87f6-c733-4096-b1d8-72573e77f8ff-17 -->
 
-    <Thing rdf:about="http://kb.phenoscape.org/uuid/2133c407-95ad-4426-b7de-2162818adc95-17">
-        <rdf:type rdf:resource="http://kb.phenoscape.org/uuid/2133c407-95ad-4426-b7de-2162818adc95-5"/>
+    <Thing rdf:about="http://kb.phenoscape.org/uuid/4acb87f6-c733-4096-b1d8-72573e77f8ff-17">
+        <rdf:type rdf:resource="http://kb.phenoscape.org/uuid/4acb87f6-c733-4096-b1d8-72573e77f8ff-5"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-        <obo:BFO_0000051 rdf:resource="http://kb.phenoscape.org/uuid/2133c407-95ad-4426-b7de-2162818adc95-18"/>
+        <obo:BFO_0000051 rdf:resource="http://kb.phenoscape.org/uuid/4acb87f6-c733-4096-b1d8-72573e77f8ff-18"/>
     </Thing>
     
 
 
-    <!-- http://kb.phenoscape.org/uuid/2133c407-95ad-4426-b7de-2162818adc95-18 -->
+    <!-- http://kb.phenoscape.org/uuid/4acb87f6-c733-4096-b1d8-72573e77f8ff-18 -->
 
-    <Thing rdf:about="http://kb.phenoscape.org/uuid/2133c407-95ad-4426-b7de-2162818adc95-18">
+    <Thing rdf:about="http://kb.phenoscape.org/uuid/4acb87f6-c733-4096-b1d8-72573e77f8ff-18">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UBERON_0011615"/>
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000053_some_http://purl.obolibrary.org/obo/PATO_0000467"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-        <obo:BFO_0000053 rdf:resource="http://kb.phenoscape.org/uuid/2133c407-95ad-4426-b7de-2162818adc95-19"/>
+        <obo:BFO_0000050 rdf:resource="http://kb.phenoscape.org/uuid/4acb87f6-c733-4096-b1d8-72573e77f8ff-17"/>
+        <obo:BFO_0000053 rdf:resource="http://kb.phenoscape.org/uuid/4acb87f6-c733-4096-b1d8-72573e77f8ff-19"/>
     </Thing>
     
 
 
-    <!-- http://kb.phenoscape.org/uuid/2133c407-95ad-4426-b7de-2162818adc95-19 -->
+    <!-- http://kb.phenoscape.org/uuid/4acb87f6-c733-4096-b1d8-72573e77f8ff-19 -->
 
-    <Thing rdf:about="http://kb.phenoscape.org/uuid/2133c407-95ad-4426-b7de-2162818adc95-19">
+    <Thing rdf:about="http://kb.phenoscape.org/uuid/4acb87f6-c733-4096-b1d8-72573e77f8ff-19">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PATO_0000467"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <obo:BFO_0000052 rdf:resource="http://kb.phenoscape.org/uuid/4acb87f6-c733-4096-b1d8-72573e77f8ff-18"/>
     </Thing>
     
 
 
-    <!-- http://kb.phenoscape.org/uuid/2133c407-95ad-4426-b7de-2162818adc95-2 -->
+    <!-- http://kb.phenoscape.org/uuid/4acb87f6-c733-4096-b1d8-72573e77f8ff-2 -->
 
-    <Thing rdf:about="http://kb.phenoscape.org/uuid/2133c407-95ad-4426-b7de-2162818adc95-2">
+    <Thing rdf:about="http://kb.phenoscape.org/uuid/4acb87f6-c733-4096-b1d8-72573e77f8ff-2">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000138"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
         <obo:CDAO_0000164 rdf:resource="http://purl.obolibrary.org/obo/PaleoDBTaxon_101119"/>
@@ -524,68 +578,91 @@
     
 
 
-    <!-- http://kb.phenoscape.org/uuid/2133c407-95ad-4426-b7de-2162818adc95-3 -->
+    <!-- http://kb.phenoscape.org/uuid/4acb87f6-c733-4096-b1d8-72573e77f8ff-3 -->
 
-    <Thing rdf:about="http://kb.phenoscape.org/uuid/2133c407-95ad-4426-b7de-2162818adc95-3">
+    <Thing rdf:about="http://kb.phenoscape.org/uuid/4acb87f6-c733-4096-b1d8-72573e77f8ff-3">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000075"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Basihyal bone and cartilage present</rdfs:label>
-        <vocab:may_have_state_value rdf:resource="http://kb.phenoscape.org/uuid/2133c407-95ad-4426-b7de-2162818adc95-4"/>
+        <vocab:may_have_state_value rdf:resource="http://kb.phenoscape.org/uuid/4acb87f6-c733-4096-b1d8-72573e77f8ff-4"/>
     </Thing>
     
 
 
-    <!-- http://kb.phenoscape.org/uuid/2133c407-95ad-4426-b7de-2162818adc95-4 -->
+    <!-- http://kb.phenoscape.org/uuid/4acb87f6-c733-4096-b1d8-72573e77f8ff-4 -->
 
-    <Thing rdf:about="http://kb.phenoscape.org/uuid/2133c407-95ad-4426-b7de-2162818adc95-4">
+    <Thing rdf:about="http://kb.phenoscape.org/uuid/4acb87f6-c733-4096-b1d8-72573e77f8ff-4">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000045"/>
+        <rdf:type rdf:resource="http://vocab.phenoscape.org/involves_some_http://purl.obolibrary.org/obo/PATO_0000467"/>
+        <rdf:type rdf:resource="http://vocab.phenoscape.org/involves_some_http://purl.obolibrary.org/obo/UBERON_0011615"/>
+        <rdf:type rdf:resource="http://vocab.phenoscape.org/involves_some_http://purl.obolibrary.org/obo/UBERON_0011618"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
         <rdf:type>
             <Restriction>
-                <onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000219"/>
-                <allValuesFrom rdf:resource="http://kb.phenoscape.org/uuid/2133c407-95ad-4426-b7de-2162818adc95-5"/>
+                <onProperty rdf:resource="http://vocab.phenoscape.org/involves"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0011618"/>
             </Restriction>
         </rdf:type>
         <rdf:type>
             <Restriction>
                 <onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000219"/>
-                <allValuesFrom rdf:resource="http://kb.phenoscape.org/uuid/2133c407-95ad-4426-b7de-2162818adc95-9"/>
+                <allValuesFrom rdf:resource="http://kb.phenoscape.org/uuid/4acb87f6-c733-4096-b1d8-72573e77f8ff-9"/>
+            </Restriction>
+        </rdf:type>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="http://vocab.phenoscape.org/involves"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000467"/>
+            </Restriction>
+        </rdf:type>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="http://vocab.phenoscape.org/involves"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0011615"/>
+            </Restriction>
+        </rdf:type>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000219"/>
+                <allValuesFrom rdf:resource="http://kb.phenoscape.org/uuid/4acb87f6-c733-4096-b1d8-72573e77f8ff-5"/>
             </Restriction>
         </rdf:type>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">present</rdfs:label>
         <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Basihyal bone and cartilage present: present</dc:description>
-        <vocab:denotes_exemplar rdf:resource="http://kb.phenoscape.org/uuid/2133c407-95ad-4426-b7de-2162818adc95-10"/>
-        <vocab:denotes_exemplar rdf:resource="http://kb.phenoscape.org/uuid/2133c407-95ad-4426-b7de-2162818adc95-6"/>
+        <vocab:denotes_exemplar rdf:resource="http://kb.phenoscape.org/uuid/4acb87f6-c733-4096-b1d8-72573e77f8ff-10"/>
+        <vocab:denotes_exemplar rdf:resource="http://kb.phenoscape.org/uuid/4acb87f6-c733-4096-b1d8-72573e77f8ff-6"/>
     </Thing>
     
 
 
-    <!-- http://kb.phenoscape.org/uuid/2133c407-95ad-4426-b7de-2162818adc95-6 -->
+    <!-- http://kb.phenoscape.org/uuid/4acb87f6-c733-4096-b1d8-72573e77f8ff-6 -->
 
-    <Thing rdf:about="http://kb.phenoscape.org/uuid/2133c407-95ad-4426-b7de-2162818adc95-6">
-        <rdf:type rdf:resource="http://kb.phenoscape.org/uuid/2133c407-95ad-4426-b7de-2162818adc95-5"/>
+    <Thing rdf:about="http://kb.phenoscape.org/uuid/4acb87f6-c733-4096-b1d8-72573e77f8ff-6">
+        <rdf:type rdf:resource="http://kb.phenoscape.org/uuid/4acb87f6-c733-4096-b1d8-72573e77f8ff-5"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-        <obo:BFO_0000051 rdf:resource="http://kb.phenoscape.org/uuid/2133c407-95ad-4426-b7de-2162818adc95-7"/>
+        <obo:BFO_0000051 rdf:resource="http://kb.phenoscape.org/uuid/4acb87f6-c733-4096-b1d8-72573e77f8ff-7"/>
     </Thing>
     
 
 
-    <!-- http://kb.phenoscape.org/uuid/2133c407-95ad-4426-b7de-2162818adc95-7 -->
+    <!-- http://kb.phenoscape.org/uuid/4acb87f6-c733-4096-b1d8-72573e77f8ff-7 -->
 
-    <Thing rdf:about="http://kb.phenoscape.org/uuid/2133c407-95ad-4426-b7de-2162818adc95-7">
+    <Thing rdf:about="http://kb.phenoscape.org/uuid/4acb87f6-c733-4096-b1d8-72573e77f8ff-7">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UBERON_0011615"/>
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000053_some_http://purl.obolibrary.org/obo/PATO_0000467"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-        <obo:BFO_0000053 rdf:resource="http://kb.phenoscape.org/uuid/2133c407-95ad-4426-b7de-2162818adc95-8"/>
+        <obo:BFO_0000050 rdf:resource="http://kb.phenoscape.org/uuid/4acb87f6-c733-4096-b1d8-72573e77f8ff-6"/>
+        <obo:BFO_0000053 rdf:resource="http://kb.phenoscape.org/uuid/4acb87f6-c733-4096-b1d8-72573e77f8ff-8"/>
     </Thing>
     
 
 
-    <!-- http://kb.phenoscape.org/uuid/2133c407-95ad-4426-b7de-2162818adc95-8 -->
+    <!-- http://kb.phenoscape.org/uuid/4acb87f6-c733-4096-b1d8-72573e77f8ff-8 -->
 
-    <Thing rdf:about="http://kb.phenoscape.org/uuid/2133c407-95ad-4426-b7de-2162818adc95-8">
+    <Thing rdf:about="http://kb.phenoscape.org/uuid/4acb87f6-c733-4096-b1d8-72573e77f8ff-8">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PATO_0000467"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <obo:BFO_0000052 rdf:resource="http://kb.phenoscape.org/uuid/4acb87f6-c733-4096-b1d8-72573e77f8ff-7"/>
     </Thing>
     
 
@@ -594,8 +671,8 @@
 
     <Thing rdf:about="http://purl.obolibrary.org/obo/PaleoDBTaxon_101119">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-        <vocab:has_member rdf:resource="http://kb.phenoscape.org/uuid/2133c407-95ad-4426-b7de-2162818adc95-14"/>
-        <vocab:has_member rdf:resource="http://kb.phenoscape.org/uuid/2133c407-95ad-4426-b7de-2162818adc95-17"/>
+        <vocab:has_member rdf:resource="http://kb.phenoscape.org/uuid/4acb87f6-c733-4096-b1d8-72573e77f8ff-14"/>
+        <vocab:has_member rdf:resource="http://kb.phenoscape.org/uuid/4acb87f6-c733-4096-b1d8-72573e77f8ff-17"/>
     </Thing>
 </rdf:RDF>
 
