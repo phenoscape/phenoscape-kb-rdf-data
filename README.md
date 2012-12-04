@@ -11,4 +11,4 @@ This is the main Knowledgebase content. It contains downloaded ontologies, Pheno
 closure
 -------
 
-This folder holds files containing some "redundant" RDF data. These are triples representing the fully materialized transitive closure of the OWL class hierarchy and certain transitive properties. This graph can be included in SPARQL queries to avoid requiring transitity at query time.
+This folder holds files containing some "redundant" RDF data. These are triples representing the fully materialized transitive closure of the OWL class hierarchy and certain transitive properties. In the Phenoscape KB triplestore, all of these files are loaded into the graph <http://kb.phenoscape.org/closure>. This graph can be included in SPARQL queries to avoid requiring transitity at query time.
